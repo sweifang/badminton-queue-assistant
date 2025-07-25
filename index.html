@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新局設定</title>
+    <link href="libs/bootstrap5/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <h1 class="text-center mb-4">新局設定</h1>
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <label for="courts-select" class="form-label">球場數量</label>
+                <select id="courts-select" class="form-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h2>所有參與者</h2>
+                    <div>
+                        <input type="file" id="participants-file" class="d-none">
+                        <label for="participants-file" class="btn btn-primary">載入名單</label>
+                        <button id="select-all-btn" class="btn btn-primary d-none">全選</button>
+                        <button id="add-participant-btn" class="btn btn-primary">+</button>
+                    </div>
+                </div>
+                <div id="all-participants" class="participant-list"></div>
+                <div class="text-center mt-2">
+                    <button id="download-participants-btn" class="btn btn-primary btn-sm">儲存所有參與者</button>
+                </div>
+            </div>
+            <div class="col-md-2 text-center align-self-center">
+                <button id="move-to-session-btn" class="btn btn-primary">&gt;</button>
+            </div>
+            <div class="col-md-5">
+                <h2>本次參與者</h2>
+                <div id="session-participants" class="participant-list"></div>
+                <div class="text-center mt-2">
+                    <button id="download-signed-up-btn" class="btn btn-primary btn-sm">儲存本次參與者</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button id="confirm-btn" class="btn btn-primary btn-lg">確認</button>
+        </div>
+    </div>
+
+    <!-- Add Participant Modal -->
+    <div class="modal fade" id="add-participant-modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">新增參加者</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="participant-name" class="form-label">姓名</label>
+                        <input type="text" class="form-control" id="participant-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="skill-level" class="form-label">程度</label>
+                        <select class="form-select" id="skill-level">
+                            <option value="Expert">Expert</option>
+                            <option value="Advanced">Advanced</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Entry">Entry</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" id="save-participant-btn">新增</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 pt-5 border-top">
+        <h3 class="text-center mb-4">操作步驟</h3>
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item">設定<strong>球場數量</strong>：1~4</li>
+            <li class="list-group-item"><strong>載入名單</strong>: 選擇安裝目錄下的participants.json檔</li>
+            <li class="list-group-item"><strong>新增參與者</strong>: 點選「+」，輸入姓名並選擇程度，按<strong>新增</strong>即可</li>
+            <li class="list-group-item">球員的程度以顏色區分：<strong style="color: rgb(101, 181, 3);">綠色</strong>=入門，<strong style="color: #256eff;">藍色</strong>=中階，<strong style="color: orange;">橘色</strong>=高階，<strong style="color: red;">紅色</strong>=大師</li>
+            <li class="list-group-item">名單載入後，勾選本次有報名臨打的球員</li>
+            <li class="list-group-item">按「&gt;」 按鈕將勾選名單複製到<strong>本次參與者</strong>中</li>
+            <li class="list-group-item">點選球員名後面的「$」符號，以標記球員是否已付費</li>
+            <li class="list-group-item">可利用<strong>儲存</strong>功能將名單保留至下次使用 (下載.json檔案後覆蓋原本的檔案)</li>
+            <li class="list-group-item">按<strong>確認</strong>即可開始球局 (開啟主頁面)</li>
+        </ol>
+    </div>
+
+    <script src="libs/Jquery/jquery-3.7.1.min.js"></script>
+    <script src="libs/bootstrap5/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

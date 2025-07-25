@@ -1,0 +1,90 @@
+body {
+    background-color: #23242b;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.participant-list {
+    background-color: #2d2e33;
+    border-radius: 8px;
+    padding: 15px;
+    min-height: 300px;
+}
+
+.participant-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.participant-row .form-check-input {
+    margin-right: 10px;
+}
+
+.player-block {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    flex-grow: 0; /* Do not grow to fill space */
+    white-space: nowrap; /* Prevent name from wrapping */
+}
+
+.player-block.Expert { background-color: #dc3545; }
+.player-block.Advanced { background-color: #fd7e14; }
+.player-block.Intermediate { background-color: #0d6efd; }
+.player-block.Entry { background-color: #198754; }
+
+.player-block .game-count {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.player-block .player-name {
+    flex-grow: 1;
+}
+
+.action-icon {
+    cursor: pointer;
+    width: 24px;  /* Set a fixed width */
+    height: 24px; /* Set a fixed height */
+}
+
+.participant-row .remove-icon {
+    margin-right: 10px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.modal-content {
+    background-color: #2d2e33;
+}
+
+.form-control, .form-select {
+    background-color: #3a3b40;
+    border: 1px solid #4f5055;
+    color: white;
+    border-radius: 8px;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #3a3b40;
+    color: white;
+    border-color: #256eff;
+    box-shadow: 0 0 0 0.25rem rgba(37, 110, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #256eff;
+    border-color: #256eff;
+}
+
+.btn-primary:hover {
+    background-color: #1a58d3;
+    border-color: #1a58d3;
+}
