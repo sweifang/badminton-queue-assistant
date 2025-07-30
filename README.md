@@ -28,19 +28,25 @@ Badminton Queue Assistant is a web-based application designed to support organiz
 ## 3. 設定新球局 Start a new session
 1. Open **index.html** in a web browser
 2. Click **Upload list** and select **participants.json**
-3. Check the signed-up players from the list and click **>** to copy the list to **Signed-up list**
-4. Click the **$** icon of each player to mark their payment status
-5. Click **Save** buttons to save **All player list** to overwrite the **participants.json** file or save as a different file in the installed foler (Optional), which can be reused for the next session.
-6. Click **Confirm** to launch the main page in which Signed-up player list is automatically loaded to the **Bench Area**
-7. Drag-and-drop the 1st set of four players into **Next Up** area, and click **End Game** button to move them to an empty court in **Ongoing Area**. Repeat the process until all courts are filled with players
+3. Click **+** button to add new participant. Fill in name and skill level, and click **Add** button to add the new participant to the list.
+4. Check the signed-up players from the list and click **>** to copy the list to **Signed-up list**
+5. Click the **$** icon of each player to mark their payment status
+6. Click **Save** buttons to save **All player list** to overwrite the **participants.json** file or save as a different file in the installed foler (Optional), which can be reused for the next session.
+7. Click **Confirm** to launch the main page in which Signed-up player list is automatically loaded to the **Bench Area**
+8. Drag-and-drop the 1st set of four players into **Next Up** area, and click **End Game** button to move them to an empty court in **Ongoing Area**. Repeat the process until all courts are filled with players
 
 - 在網頁瀏覽器中打開 **index.html**
 - 點擊 **上傳名單** 並選擇安裝文件夾中的 **participants.json**
+- 按 **+** 號可新增球員，輸入姓名及程度後按 **新增** 即可加入名單
+<img src="assets/3.jpg" alt="add_participant" width="300">
+
 - 從列表中勾選已報名的球員，然後點擊 **>** 將名單複製到 **本次參與者**
 - 點擊每位球員的 **$** 圖示以標記其付款狀態
 - 點擊 **儲存** 按鈕以下載 **所有參與者名單** 來覆寫安裝文件夾中的**participants.json**或另存新檔，方便下次直接載入使用
+<img src="assets/1.jpg" alt="add_participant" width="500">
 - 點擊 **確認** 以啟動主頁面，**本次參與者名單** 會自動載入到 **板凳區**
 - 將第一組四名球員拖放到 **即將上場** 區域，然後點擊 **終場** 按鈕將他們移動到 **進行中** 區域的空球場。重複此流程，直到所有球場都滿員
+<img src="assets/2.jpg" alt="add_participant" width="500">
 
 ## 4. 自動排場 Auto rotation
 - After a game is finished, click "End Game" button to trigger the rotation
