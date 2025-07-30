@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>羽球排隊小幫手 - 主頁</title>
+    <title>羽球臨打自動排場助手 V1.0</title>
     <link href="libs/bootstrap5/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -47,22 +47,24 @@
         </div>
     </div>
 
-    <div class="container mt-5 pt-5 border-top">
-        <h3 class="text-center mb-4">操作說明</h3>
+    <div class="container mt-3 pt-3 border-top">
+        <h3 class="text-center mb-4" style="color:lightgrey">操作說明</h3>
         <ol class="list-group list-group-numbered">
-            <li class="list-group-item">本次參與者名單會自動載入到<strong>板凳區</strong></li>
-            <li class="list-group-item">主辦人先將未報到球員拖曳至<strong>未到區</strong> (不參與自動排場)</li>
-            <li class="list-group-item">主辦人先將4名球員拖曳至<strong>即將上場</strong> (例如已在場上熱身者)，按下<strong>終場</strong>按鈕，即可將第一組人員排到空的球場。以相同步驟將所有場地排滿</li>
-            <li class="list-group-item">球員名字前面的數字，代表該球員的<strong>上場次數</strong></li>
-            <li class="list-group-item">當某一球場比賽結束，按下<strong>終場</strong>鈕即可自動排場，上場次數較少的將優先排入<strong>即將上場</strong></li>
-            <li class="list-group-item"><strong>未到區</strong>的球員若已報到，可拖曳至<strong>板凳區</strong>加入自動排場</li>
-            <li class="list-group-item">剛打完的球員會移至<strong>板凳區</strong>並被系統標記為休息中，須待另一場終場後才會解除標記並加入排場</li>
-            <li class="list-group-item">系統會自動優化排場，若相同的4人組合在上一場已對打過，系統會自動拆開重組確保對手的多元性</li>
-            <li class="list-group-item"><strong>手動排場</strong>：主辦人可手動拖曳球員強制排場，無視上場次數的優先順序</li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;">本次參與者名單會自動載入到<span class="highlight-text">板凳區</span></li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;">主辦人先將未報到球員拖曳至<span class="highlight-text">未到區</span> (不參與自動排場)</li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;">主辦人先將4名球員拖曳至<span class="highlight-text">即將上場</span> (例如已在場上熱身者)，按下<span class="highlight-text">終場</span>按鈕，即可將第一組人員排到空的球場。以相同步驟將所有場地排滿</li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;">球員名字前面的數字，代表該球員的<span class="highlight-text">上場次數</span></li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;">當某一球場比賽結束，按下<span class="highlight-text">終場</span>鈕即可自動排場，上場次數較少的將優先排入<span class="highlight-text">即將上場</span></li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;"><span class="highlight-text">未到區</span>的球員若已報到，可拖曳至<span class="highlight-text">板凳區</span>加入自動排場</li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;">剛打完的球員會移至<span class="highlight-text">板凳區</span>並被系統標記為休息中，須待另一場終場後才會解除標記並加入排場</li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;">系統會自動優化排場，若相同的4人組合在上一場已對打過，系統會自動拆開重組確保對手的多元性</li>
+            <li class="list-group-item" style="background-color: #2d2e37; color: white;"><span class="highlight-text">手動排場</span>：主辦人可手動拖曳球員強制排場，無視上場次數的優先順序</li>
             
         </ol>
     </div>
-
+    <div class="container mt-4 pt-0 border-top">
+        <div class ="text-center text-secondary" style="font-size: 0.8rem;">Designed by Swen Fang @2025 WUYU Innovation Co., LTD.</div>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
