@@ -38,15 +38,15 @@ Badminton Queue Assistant is a web-based application designed to support organiz
 - 在網頁瀏覽器中打開 **index.html**
 - 點擊 **上傳名單** 並選擇安裝文件夾中的 **participants.json**
 - 按 **+** 號可新增球員，輸入姓名及程度後按 **新增** 即可加入名單
-<img src="https://github.com/sweifang/badminton-queue-assistant/blob/main/assets/3.JPG?raw=true" alt="add_participant" width="300">
+  <img src="https://github.com/sweifang/badminton-queue-assistant/blob/main/assets/3.JPG?raw=true" alt="add_participant" width="300">
 
 - 從列表中勾選已報名的球員，然後點擊 **>** 將名單複製到 **本次參與者**
 - 點擊每位球員的 **$** 圖示以標記其付款狀態
 - 點擊 **儲存** 按鈕以下載 **所有參與者名單** 來覆寫安裝文件夾中的**participants.json**或另存新檔，方便下次直接載入使用
-<img src="assets/1.jpg" alt="add_participant" width="500">
+  <img src="https://github.com/sweifang/badminton-queue-assistant/blob/main/assets/1.JPG?raw=true" alt="add_participant" width="500">
 - 點擊 **確認** 以啟動主頁面，**本次參與者名單** 會自動載入到 **板凳區**
 - 將第一組四名球員拖放到 **即將上場** 區域，然後點擊 **終場** 按鈕將他們移動到 **進行中** 區域的空球場。重複此流程，直到所有球場都滿員
-<img src="assets/2.jpg" alt="add_participant" width="500">
+<img src="https://github.com/sweifang/badminton-queue-assistant/blob/main/assets/2.JPG?raw=true" alt="add_participant" width="500">
 
 ## 4. 自動排場 Auto rotation
 - After a game is finished, click "End Game" button to trigger the rotation
