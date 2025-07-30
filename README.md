@@ -44,6 +44,7 @@ Badminton Queue Assistant is a web-based application designed to support organiz
 - 點擊每位球員的 **$** 圖示以標記其付款狀態
 - 點擊 **儲存** 按鈕以下載 **所有參與者名單** 來覆寫安裝文件夾中的**participants.json**或另存新檔，方便下次直接載入使用
 <img src="https://github.com/sweifang/badminton-queue-assistant/blob/main/assets/1.JPG?raw=true" alt="add_participant" width="500">
+
 - 點擊 **確認** 以啟動主頁面，**本次參與者名單** 會自動載入到 **板凳區**
 - 將第一組四名球員拖放到 **即將上場** 區域，然後點擊 **終場** 按鈕將他們移動到 **進行中** 區域的空球場。重複此流程，直到所有球場都滿員
 <img src="https://github.com/sweifang/badminton-queue-assistant/blob/main/assets/2.JPG?raw=true" alt="add_participant" width="500">
