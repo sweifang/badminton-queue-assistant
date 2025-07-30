@@ -38,7 +38,7 @@ Badminton Queue Assistant is a web-based application designed to support organiz
 - 在網頁瀏覽器中打開 **index.html**
 - 點擊 **上傳名單** 並選擇安裝文件夾中的 **participants.json**
 - 按 **+** 號可新增球員，輸入姓名及程度後按 **新增** 即可加入名單
-<img src="https://github.com/sweifang/badminton-queue-assistant/assets/3.jpg" alt="add_participant" width="300">
+<img src="https://github.com/sweifang/badminton-queue-assistant/blob/main/assets/3.JPG?raw=true" alt="add_participant" width="300">
 
 - 從列表中勾選已報名的球員，然後點擊 **>** 將名單複製到 **本次參與者**
 - 點擊每位球員的 **$** 圖示以標記其付款狀態
