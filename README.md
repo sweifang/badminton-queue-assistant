@@ -28,11 +28,11 @@ Badminton Queue Assistant is a web-based application designed to support organiz
 - 將 ZIP 文件解壓縮到您設備上的文件夾中 (例如筆記型電腦)
 ### 2.2 在手機或平板操作 iOS/Android cellphone or tablet
 1. Connect the device to internet
-2. Download the sample of participant list [here](https://raw.githubusercontent.com/sweifang/badminton-queue-assistant/refs/heads/main/participants.json) and save it in the device's storage.
+2. Download the sample of participant list [here](https://raw.githubusercontent.com/sweifang/badminton-queue-assistant/refs/heads/main/participants.json) (right click > save link as...) and save it in the device's storage.
 3. Open the application link [here](https://sweifang.github.io/badminton-queue-assistant/) on browser
 4. After the webpage is loaded, internet connection will no longer be necessary
 - 將裝置連上網際網路
-- 將參與者名單的範本下載至裝置內部儲存[點此連結下載](https://raw.githubusercontent.com/sweifang/badminton-queue-assistant/refs/heads/main/participants.json)
+- 將參與者名單的範本下載至裝置內部儲存[點此連結下載](https://raw.githubusercontent.com/sweifang/badminton-queue-assistant/refs/heads/main/participants.json) (右鍵點擊>另存連結)
 - 在瀏覽中開啟應用程式的網頁[點此連結](https://sweifang.github.io/badminton-queue-assistant/)
 - 網頁正確顯示後，之後的操作便不需要連接網路
 

@@ -88,3 +88,8 @@ body {
     background-color: #1a58d3;
     border-color: #1a58d3;
 }
+
+.highlight-text {
+    font-weight: bold; 
+    color: #80d3d9;
+}
